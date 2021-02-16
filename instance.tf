@@ -1,5 +1,5 @@
 module "instance" {
-  source = "https://github.com/gustiba/exam/tree/main/module/ec2"
+  source = "https://github.com/gustiba/exam/"
 
   INSTANCE_COUNT = 1
   AMI = ["ami-0c20b8b385217763f", "ami-0f86a70488991335e"]
